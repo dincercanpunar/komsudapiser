@@ -1,0 +1,35 @@
+.jumbotron {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 0 60px 0 50px;
+    background: linear-gradient(90deg, rgba(242,218,213,1)  0%, rgba(251,224,220,1) 100%);
+
+    .jumbotronLeft {
+        flex: 1;
+
+        h2 {
+            font-size: 50px;
+            font-family: "Petit Formal Script";
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-family: "Roboto";
+            color: #545454;
+        }
+    }
+
+    .jumbotronRight {
+        flex: 2;
+        display: flex;
+        justify-content: flex-end;
+
+        img {
+            height: 500px;
+        }
+    }
+}
